@@ -78,3 +78,29 @@
   color: #2e2f42;
   font-family: "Montserrat", sans-serif;
 }
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+
+  background-color: #4e75ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  margin: 20px auto; /* центрування на сторінці */
+  cursor: pointer;
+  transition: background-color 250ms ease;
+}
+
+.load-more:hover {
+  background-color: #6c8cff;
+}
+

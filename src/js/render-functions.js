@@ -57,3 +57,12 @@ export function createGallery(images) {
   gallery.insertAdjacentHTML('beforeend', markup);
   lightbox.refresh();
 }
+export function showLoadMoreButton() {
+  const btn = document.querySelector('.load-more');
+  if (btn) btn.classList.remove('hidden');
+}
+
+export function hideLoadMoreButton() {
+  const btn = document.querySelector('.load-more');
+  if (btn) btn.classList.add('hidden');
+}
